@@ -20,6 +20,7 @@ import plotly.graph_objects as go
 
 # Load the CSV file
 data_file = r'data_16b.csv'
+server= app.server
 df = pd.read_csv(data_file)
 
 #preprocess to clean data
