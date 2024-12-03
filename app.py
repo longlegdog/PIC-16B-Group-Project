@@ -20,7 +20,7 @@ import plotly.graph_objects as go
 
 # Load the CSV file
 data_file = r'data_16b.csv'
-server= app.server
+
 df = pd.read_csv(data_file)
 
 #preprocess to clean data
@@ -39,6 +39,7 @@ df["Price"] = df.apply(clean_price, axis=1)
 
 #initialize Dash app
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
+server= app.server
 app.title = "Grocery Price Comparison"
 
 #add "All" to the dropdown options
