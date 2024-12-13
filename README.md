@@ -1,4 +1,4 @@
-**Overview**
+# **Overview**
 Our project goal is to provide an app that users can search for items from both Target and Whole Foods and use different functions of the app to compare and contrast the prices of different items. 
 
 This project works by scraping data from Target and Whole Foods using Selenium, then using that data to create an interactive app using Dash. Finally, the app is hosted on render at https://pic-16b-group-2-project.onrender.com/. 
