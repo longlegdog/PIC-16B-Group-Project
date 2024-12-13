@@ -18,4 +18,4 @@ This project works by scraping data from Target and Whole Foods using Selenium, 
 # **INSTRUCTIONS**
 If you clone our repo, you can put it directly into Render. Here is a tutorial on how to use render. https://github.com/thusharabandara/dash-app-render-deployment
 
-Otherwise, you can use our data file "data_16" and feed it into our dash app code at "dash_final". This will run our app with our data. If you'd like to scrape different data or toggle what links the scraper sifts through, you can look at the "webscraping" folder that has our scraping + data cleaning code. Thanks for reading!
+Otherwise, you can use our data file "data_16" and feed it into our dash app code at "dash_final". This will run our app with our data. If you'd like to scrape different data or toggle what links the scraper sifts through, you can look at the "webscraping" folder that has our scraping + data cleaning code. ("app.py" and "requirements" are for Render. You don't need to change these files. Also, the database isn't used in our project but is there as a backup.) Thanks for reading! 
